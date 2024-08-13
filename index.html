@@ -4212,25 +4212,29 @@
 	
 					</nav>
 				</div>
+	<script type="text/javascript">
+	var render_data = {
+			counterpartyName: "Acme",
+		address: "650 California Street, San Francisco, CA 94108",
+		counterpartySignerEmail: "zo.asmail@ironcladhq.com",
+		fullName: "Zo Asmail",
+	};
+	var custom_data = {
+			counterpartyName: "Acme",
+		address: "650 California Street, San Francisco, CA 94108",
+		counterpartySignerEmail: "zo.asmail@ironcladhq.com",
+		fullName: "Zo Asmail",
+	};
 	
-				<script type="text/javascript">
-								var custom_data = {
-								counterpartyName: "Acme, Inc"
-								email: "zo.asmail@ironcladhq.com"
-								fullName: "Zo Asmail"
-								address: "650 California Street, San Francisco CA 94108 USA"
-								order: "Healthy Climate HCWP3-18"
-							};
 	_ps("create", "0ba32260-a08c-46ee-9ad4-6efbbedc19bf", {dynamic: true });
 	
-	_ps('set', 'signer_id', 'zo.asmail@ironcladhq.com' );
+	_ps('set', 'signer_id', 'tyler.andersen@ironcladhq.com' );
 	
 	_ps("send", "updated", { custom_data: custom_data });
 	
 	_ps('load', 'embedded-prz-i6tvw', { container_selector: "contracts", render_data: render_data });
 	
-	
-								</script>
+	</script>
 					   <style type="text/css">
 								#ps-group-embedded-tyxohy9ky div.ps-contract {
 									padding-bottom: 10px !important;
